@@ -8,7 +8,6 @@ import android.graphics.Rect;
 import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
 import android.util.Log;
-import android.view.animation.Animation;
 import android.widget.RelativeLayout;
 
 public class HomeItemContainer extends RelativeLayout
@@ -36,7 +35,7 @@ public class HomeItemContainer extends RelativeLayout
         init();
     }
     
-    protected void init() {
+    protected void init() { 
         setWillNotDraw(false);
         mRect = new Rect();
         mBound = new Rect();
